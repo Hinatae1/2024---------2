@@ -1,0 +1,27 @@
+.container {
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30vw;
+    margin: 10px;
+}
+.overBox{
+    background-color: aquamarine;
+}
+.menu {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    margin: 10px;
+}
+.draggingMenu {
+    border-color: red;
+}
