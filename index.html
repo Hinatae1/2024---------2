@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>키오스크 사이트</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="category" data-category="Coffee">커피</button>
+      <button class="category" data-category="Beverage">음료</button>
+      <button class="category" data-category="Juice">주스</button>
+      <button class="category" data-category="smoothie">스무디</button>
+      <button class="category" data-category="Ade">에이드&티</button>
+      <button class="category" data-category="Shake">프라페&쉐이크</button>
+    </nav>
+  </header>
+  <main>
+    <section id="menu">
+      <h2>메뉴</h2>
+      <div class="menu-items">
+        <div class="menu-item" data-category="Coffee" draggable="true" data-price="1500">
+            <img src="에스프레소.jpg" alt="커피">
+            <p>에스프레소</p>
+            <p>가격: 1,500원</p>
+        </div>
+        <div class="menu-item" data-category="Coffee" draggable="true" data-price="1500">
+            <img src="아메리카노.jpg" alt="커피">
+            <p>아메리카노</p>
+            <p>가격: 1,500원</p>
+        </div>
+        <div class="menu-item" data-category="Coffee" draggable="true" data-price="2900">
+            <img src="라떼.jpg" alt="커피">
+            <p>카페라떼</p>
+            <p>가격: 2,900원</p>
+        </div>
+        <div class="menu-item" data-category="Coffee" draggable="true" data-price="2900">
+            <img src="카푸치노.jpg" alt="커피">
+                <p>카푸치노</p>
+                <p>가격: 2,900원</p>
+            </div>
+
+        <div class="menu-item" data-category="Coffee" draggable="true" data-price="3300">
+            <img src="마끼아또.jpg" alt="커피">
+                <p>카라멜마끼아또</p>
+                <p>가격: 3,300원</p>
+            </div>
+       <div class="menu-item" data-category="Coffee" draggable="true" data-price="3500">
+              <img src="모카.jpg" alt="커피">
+                <p>카페모카</p>
+                <p>가격: 3,500원</p>
+            </div>
+        <div class="menu-item" data-category="Beverage" draggable="true" data-price="3300">
+                <img src="곡물라떼.jpg" alt="음료">
+                 <p>곡물라떼</p>
+                 <p>가격: 3,300원</p>
+            </div>
+            <div class="menu-item" data-category="Beverage" draggable="true" data-price="3500">
+                <img src="고구마라뗴.jpg" alt="음료">
+                <p>고구마라떼</p>
+                <p>가격: 3,500원</p>
+                </div>
+
+           <div class="menu-item" data-category="Beverage" draggable="true" data-price="3500">
+            <img src="더블초코라뗴.jpg" alt="음료">
+                <p>더블초코라떼</p>
+                <p>가격: 3,500원</p>
+            </div>
+           <div class="menu-item" data-category="Beverage" draggable="true" data-price="3500">
+            <img src="쿠키초코라뗴.jpg" alt="음료">
+            <p>쿠키초코라떼</p>
+            <p>가격: 3,500원</p>
+            </div>
+           <div class="menu-item" data-category="Beverage" draggable="true" data-price="3500">
+            <img src="그린티.jpg" alt="음료">
+            <p>그린티라떼</p>
+            <p>가격: 3,500원</p>
+            </div>
+            <div class="menu-item" data-category="Beverage" draggable="true" data-price="6000">
+                <img src="딸기 후르츠라뗴.jpg" alt="음료">
+                <p>딸기 후르츠라떼</p>
+                <p>가격: 6000원</p>
+                </div>
+
+        <div class="menu-item" data-category="Beverage" draggable="true" data-price="6000">
+            <img src="망고후르츠라뗴.jpg" alt="음료">
+                <p>망고 후르츠라떼</p>
+                <p>가격: 6000원</p>
+        </div>
+        <div class="menu-item" data-category="Beverage" draggable="true" data-price="6000">
+            <img src="불루베리 후르츠라뗴.jpg" alt="음료">
+                <p>블루베리 후르츠라떼</p>
+                <p>가격: 6000원</p>
+        </div>
+        <div class="menu-item" data-category="Beverage" draggable="true" data-price="3800">
+            <img src="밀크티.jpg" alt="음료">
+            <p>밀크티</p>
+            <p>가격: 3,800원</p>
+        </div>
+        <div class="menu-item" data-category="Juice" draggable="true" data-price="3800">
+            <img src="키위주스.jpg" alt="키위주스">
+            <p>키위주스</p>
+            <p>가격: 3,800원</p>
+            </div>
+
+       <div class="menu-item" data-category="Juice" draggable="true" data-price="3800">
+              <img src="복숭아주스.jpg" alt="복숭아주스">
+                <p>복숭아주스</p>
+                <p>가격: 3,800원</p>
+            </div>
+        <div class="menu-item" data-category="Juice" draggable="true" data-price="3800">
+                <img src="오렌지당근주스.jpg" alt="오렌지당근주스">
+                <p>오렌지당근주스</p>
+                <p>가격: 3,800원</p>
+            </div>
+            <div class="menu-item" data-category="Juice" draggable="true" data-price="3800">
+                <img src="샤인머스켓주스.jpg" alt="샤인머스켓케일주스">
+                <p>샤인머스켓케일주스</p>
+                <p>가격: 3,800원</p>
+                </div>
+
+           <div class="menu-item" data-category="smoothie" draggable="true" data-price="3800">
+           <img src="딸기스무디.jpg" alt="딸기스무디">
+                <p>딸기스무디</p>
+                <p>가격: 3,800원</p>
+            </div>
+           <div class="menu-item" data-category="smoothie" draggable="true" data-price="3800">
+            <img src="망고스무디.jpg" alt="망고스무디">
+                <p>망고스무디</p>
+                <p>가격: 3,800원</p>
+            </div>
+           <div class="menu-item" data-category="smoothie" draggable="true" data-price="3800">
+            <img src="블루베리스무디.jpg" alt="블루베리스무디">
+                <p>블루베리스무디</p>
+                <p>가격: 3,800원</p>
+            </div>
+            <div class="menu-item" data-category="smoothie" draggable="true" data-price="3800">
+                <img src="유자스무디.jpg" alt="유자스무디">
+                <p>유자스무디</p>
+                <p>가격: 3,800원</p>
+                </div>
+
+        <div class="menu-item" data-category="smoothie" draggable="true" data-price="4000">
+            <img src="딸기요거트스무디.jpg" alt="딸기요거트스무디">
+                <p>딸기요거트스무디</p>
+                <p>가격: 4,000원</p>
+        </div>
+        <div class="menu-item" data-category="smoothie" draggable="true" data-price="4000">
+            <img src="플레인요거트스무디.jpg" alt="플레인요거트스무디">
+                <p>플레인요거트스무디</p>
+                <p>가격: 4,000원</p>
+        </div>
+        <div class="menu-item" data-category="smoothie" draggable="true" data-price="4000">
+            <img src="망고요거트스무디.jpg" alt="망고요거트스무디">
+            <p>망고요거트스무디</p>
+            <p>가격: 4,000원</p>
+        </div>
+        <div class="menu-item" data-category="smoothie" draggable="true" data-price="4000">
+            <img src="블루베리요거트스무디.jpg" alt="블루베리요거트스무디">
+                <p>블루베리요거트스무디</p>
+                <p>가격: 4,000원</p>
+            </div>
+
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+            <img src="자몽에이드.jpg" alt="자몽에이드">
+            <p>자몽에이드</p>
+            <p>가격: 3,500원</p>
+            </div>
+       <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+              <img src="레몬에이드.jpg" alt="레몬에이드">
+                <p>레몬에이드</p>
+                <p>가격: 3,500원</p>
+            </div>
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+                <img src="망고에이드.jpg" alt="망고에이드">
+                <p>망고에이드</p>
+                <p>가격: 3,500원</p>
+            </div>
+            <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+                <img src="유자에이드.jpg" alt="유자에이드">
+                <p>유자에이드</p>
+                <p>가격: 3,500원</p>
+            </div>
+           <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+            <img src="블루레몬에이드.jpg" alt="블루레몬에이드">
+                <p>블루레몬에이드</p>
+                <p>가격: 3,500원</p>
+            </div>
+           <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+            <img src="청포도에이드.jpg" alt="청포도에이드">
+                <p>청포도에이드</p>
+                <p>가격: 3,500원</p>
+            </div>
+           <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+            <img src="패션후르츠에이드.jpg" alt="패션후르츠에이드">
+                <p>패션후르츠에이드</p>
+                <p>가격: 3,500원</p>
+            </div>
+            <div class="menu-item" data-category="Ade" draggable="true" data-price="2500">
+                <img src="패퍼민트허브티.jpg" alt="패퍼민트 허브티">
+                <p>패퍼민트 허브티</p>
+                <p>가격: 2,500원</p>
+                </div>
+
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="2500">
+            <img src="캐모마일허브티.jpg" alt="캐모마일 허브티">
+                <p>캐모마일 허브티</p>
+                <p>가격: 2,500원</p>
+        </div>
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="2500">
+            <img src="로즈마리허브티.jpg" alt="로즈마리 허브티">
+                <p>로즈마리 허브티</p>
+                <p>가격: 2,500원</p>
+        </div>
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="2500">
+            <img src="얼그레이.jpg" alt="얼그레이 홍차">
+                <p>얼그레이 홍차</p>
+                <p>가격: 2,500원</p>
+        </div>
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="2500">
+            <img src="블랙퍼스트.jpg" alt="블랙퍼스트 홍차">
+                <p>블랙퍼스트 홍차</p>
+                <p>가격: 2,500원</p>
+            </div>
+
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+            <img src="자몽티.jpg" alt="자몽티">
+                <p>자몽티</p>
+                <p>가격: 3,500원</p>
+            </div>
+       <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+               <img src="레몬티.jpg" alt="레몬티">
+                <p>레몬티</p>
+                <p>가격: 3,500원</p>
+            </div>
+        <div class="menu-item" data-category="Ade" draggable="true" data-price="3500">
+                <img src="유자티.jpg" alt="유자티">
+                <p>유자티</p>
+                <p>가격: 3,500원</p>
+            </div>
+            <div class="menu-item" data-category="Ade" draggable="true" data-price="3000">
+                <img src="복숭아티.jpg" alt="북숭아티">
+                <p>북숭아티</p>
+                <p>가격: 3,000원</p>
+                </div>
+
+           <div class="menu-item" data-category="Ade" draggable="true" data-price="3800">
+           <img src="자몽허니블랙티.jpg" alt="자몽허니블랙티">
+                <p>자몽허니블랙티</p>
+                <p>가격: 3,800원</p>
+            </div>
+           <div class="menu-item" data-category="Shake" draggable="true" data-price="4000">
+           <img src="리얼초코자바칩프라페.jpg" alt="리얼초코자바칩">
+                <p>리얼초코자바칩 프라페</p>
+                <p>가격: 4,000원</p>
+            </div>
+           <div class="menu-item" data-category="Shake" draggable="true" data-price="4000">
+             <img src="쿠키초코프라페.jpg" alt="쿠키초코프라페">
+                <p>쿠키초코프라페</p>
+                <p>가격: 4,000원</p>
+            </div>
+            <div class="menu-item" data-category="Shake" draggable="true" data-price="4500">
+                 <img src="모카자바칩프라페.jpg" alt="모카자바칩프라페">
+                <p>모카자바칩프라페</p>
+                <p>가격: 4,500원</p>
+                </div>
+            <div class="menu-item" data-category="Shake" draggable="true" data-price="4200">
+                <img src="밀크쉐이크.jpg" alt="밀크쉐이크">
+                <p>밀크쉐이크</p>
+                <p>가격: 4,200원</p>
+            </div>                
+            <div class="menu-item" data-category="Shake" draggable="true" data-price="4200">
+                <img src="캔디소다.jpg" alt="캔디소다">
+                <p>캔디소다</p>
+                <p>가격: 4,200원</p>
+               </div>
+               <div class="menu-item" data-category="Shake" draggable="true" data-price="4500">
+                <img src="쿠키.jpg" alt="쿠키밀크쉐이크">
+                <p>쿠키밀크쉐이크</p>
+                <p>가격: 4,500원</p>
+               </div>
+               <div class="menu-item" data-category="Shake" draggable="true" data-price="4500">
+                <img src="커피밀크.jpg" alt="커피밀크쉐이크">
+                <p>커피밀크쉐이크</p>
+                <p>가격: 4,500원</p>
+               </div>
+               <div class="menu-item" data-category="Shake" draggable="true" data-price="4500">
+                <img src="팥절미.jpg" alt="팥절미밀크쉐이크">
+                <p>팥절미밀크쉐이크</p>
+                <p>가격: 4,500원</p>
+               </div>
+      </div>
+    </section>
+    <section id="cart">
+        <h2>장바구니</h2>
+      <div class="cart-items"></div>
+      <div id="total">
+        <p>총 합계: <span id="total-price">₩0</span></p>
+        <button id="checkout-button">결제</button>
+    <div id="receipt" style="display: none;"></div> <!-- 영수증 표시 영역 -->
+      </div>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
